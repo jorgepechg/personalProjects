@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Principios de diseño web.</title>
+
+</head>
+
+<body> 
+
+   <h1>Cómo crear una página web.</h1>
+
+      <h2>Principios de Diseño Web:</h2>
+
+         <a href="elementosBasicos.html"><h3>Elementos básicos de una página web.</h3></a>
+         <a href="integrarContenidos.html"><h3>Integrar contenidos en una página web.</h3></a>
+
+         <figure style="margin: 0;">
+         <img src="multimedia/imagen1.jpg"
+            alt="Desarrollo Web"
+            width="400"
+            height="300">
+
+            <figcaption>Tomado de: <a href="https://www.quois.com/wp-content/uploads/2021/07/Las-fases-del-desarrollo-de-una-web.jpg">
+            https://www.quois.com/wp-content/uploads/2021/07/Las-fases-del-desarrollo-de-una-web.jpg</a></figcaption>
+         </figure>
+
+
+      <h2>¿Qué es el desarrollo web?</h2>
+
+         <p>
+            El desarrollo web es en términos sencillos todo lo relacionando con el diseño, 
+            creación y mantenimiento de software e infraestructura para la web, 
+            esto incluye desde páginas web de texto simple hasta aplicaciones web complejas.
+         </p>
+
+         <p>
+            El objetivo del desarrollo web es lograr una buena experiencia de usuario cumpliendo con los requerimientos de cada proyecto.
+            El buen desarrollo web procura que sus sitios sean estables y eficientes,
+            garantizando seguridad, rapidez, disponibilidad y usabilidad.
+         </p>
+
+      <h2>Conceptos básicos:</h2>
+      
+         <video src="multimedia/video1.mp4" poster="multimedia/imagenVideo1.png"
+            width="450"
+            height="300" 
+            controls>
+            Tu navegador no admite el elemento <code>video</code>.
+            </video>
+         <p>
+            Tomado de: <a href="https://www.youtube.com/watch?v=m86Bdh47IZM&t">
+            https://www.youtube.com/watch?v=m86Bdh47IZM&t</a>
+         </p>
+
+         <p>
+            Para saber más consulta la siguiente presentación: 
+         </p>
+
+         <p>
+            <a href="multimedia/presentacion.pdf" target="_blank">Presentación Tendencias del Desarrollo Web.</a>
+         </p> 
+
+         <a href="multimedia/presentacion.pdf" target="_blank">
+            <img src="multimedia/imagenPDF.jpg"
+            alt="Descargar PDF"
+            width="150"
+            height="150">
+         </a>
+
+      <h2>Formulario de satisfacción.</h2>
+      
+      <form action="/formulario" method="post">
+         <fieldset>
+            <legend>Datos de satisfacción</legend>
+            <ul>
+               <li>
+                  <label for="nombres">Ingrese su nombre:</label><br>
+                  <input type="text" id="nombres" name="nombres" value="Nombres"><br>
+                  <label for="apellidos">Ingrese sus apellidos:</label><br>
+                  <input type="text" id="apellidos" name="nombres" value="Apellidos">
+                  <br>
+               </li>
+               <li>
+                  <label for="email">Correo electrónico:</label>
+                  <input type="email" id="email" name="email">
+                  <br>
+               </li>
+               <li>
+                  <label for="sexo">Sexo:</label><br>
+                  <input type="radio" id="sexo" name="sexo" value="Mujer">
+                  <label for="html">Mujer</label><br>
+                  <input type="radio" id="sexo" name="sexo" value="Hombre">
+                  <label for="css">Hombre</label>
+                  <br>
+               </li>
+               <li>
+                  <label for="origen">Donde se informo de nosotros:</label><br>
+                  <input type="checkbox" id="redes" name="redessociales" value="Redes Sociales">
+                  <label for="redes"> Redes Sociales</label><br>
+                  <input type="checkbox" id="buscador" name="buscadorweb" value="Buscador Web">
+                  <label for="buscador"> Buscador Web</label><br>
+                  <input type="checkbox" id="enlace" name="enlace" value="Enlace dentro de página web">
+                  <label for="enlace"> Enlace dentro de página web</label>
+                  <br>
+               </li>
+               <li>
+                  <label for="satisfaccion">Grado de satisfacción con el sitio:</label>
+                  <input type="range" id="satisfaccion" name="satisfaccion" min="0" max="10">
+                  <br>
+               </li>
+               <li>
+                  <label for="mensaje">Recomendación para mejora:</label>
+                  <textarea name="mensaje" rows="10" cols="30">Escriba su recomendación</textarea>
+                  <br><br>
+               </li>
+               <input type="submit" value="Enviar">
+               <input type="reset" value="Borrar">
+            </ul>
+         </fieldset>
+       </form>
+
+
+</body>
+
+</html>
