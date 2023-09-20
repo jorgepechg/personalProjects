@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <title>Reservación</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
-    <h2>Formulario de Reservación.</h2>
 
+<body>
+    <div id="contenedor">
+        <div id="cabecera">
+          <h1>Formulario de Reservación.</h1>
+        </div>
     <form action="/formulario" method="post">
         <fieldset>
             <legend>Datos de Reservación</legend>
@@ -47,19 +52,37 @@
         </fieldset>
     </form>
 
-    <footer>
+    <div id="pie de pagina">
+        <footer>
+            <div id="menu">
+                <nav>
+                    <ul>
+                        <li><a class="menulinks" href="index.html">Inicio.</a></li>
+                        <li><a class="menulinks" href="historia.html">Historia.</a></li>
+                        <li><a class="menulinks" href="testimonios.html">Testimonios.</a></li>
+                        <li><a class="menulinks" href="atractivos.html">Atractivos.</a></li>
+                        <li><a class="menulinks" href="tradiciones.html">Tradiciones.</a></li>
+                    </ul>
 
-        <ul>
-            <li><a href="index.html">Inicio.</a></li>
-            <li><a href="historia.html">Historia.</a></li>
-            <li><a href="atractivos.html">Atractivos.</a></li>
-            <li><a href="tradiciones.html">Tradiciones.</a></li>
-            <li> <a href="testimonios.html">Testimonios.</a></li>
-        </ul>
-        
-        <h5>Creado por Jorge Pech - jorgepechgrajales@gmail.com</h5>
-        
-    </footer>
+                </nav>
+            </div>
+            <div id="creditos">
+                <p>
+                    <small>
+                        <b>
+                            Referencias:
+                        </b><br>
+                        <i>
+                            Consejo de Promoción Turística de Cozumel. Cozumel Travel Recuperado de https://www.caribemexicano.travel/isla-cozumel/
+                        </i>
+                    </small>
+                </p>
 
+                <h5>Creado por Jorge Pech - jorgepechgrajales@gmail.com</h5>
+            </div>
+
+        </footer>
+    </div>
+    </div>
 </body>
 </html>

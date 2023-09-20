@@ -1,0 +1,66 @@
+
+body {
+    background-color: #F0F8FF;
+}
+#contenedor {
+    font-family: Tahoma;
+    color: #23426F;
+}
+
+#cabecera {
+    color: #CDE6FF;
+    background-color: #23426F;
+    text-align: left;
+    padding: 10px 10px 10px 2em;           
+}
+
+    .tituloseccion {
+        background-color: #CDE6FF;
+        text-align: left;
+        padding: 5px 5px 5px 4em;
+    }
+
+    #tabla_playas {
+        color: #23426F;
+        table-layout: fixed;
+        border-collapse: collapse;
+        border: 3px solid #23426F;
+        background-color: #FFFFFF;
+    }
+
+    #tabla_playas th, #tabla_playas td {
+        border-collapse: collapse;
+        border: 2px solid #23426F
+    }
+
+    #tabla_playas th {
+        background-color: #23426F;
+    }
+
+    .titulostabla {
+        color: #FFFFFF;
+    }
+
+    .nombrestabla {
+        padding: 5px 5px 5px 5px;
+    }
+
+    .linktabla {
+        padding: 5px 5px 5px 5px;
+        font-style: italic;
+    }
+
+    #menu {
+        font-weight: bold;
+        font-style: italic;
+        background-color: #23426F;
+        color: #CDE6FF;
+        padding: 1em;
+    }
+        .menulinks {
+            color: #CDE6FF;
+    }
+    #creditos {
+        background-color: #CDE6FF;
+        padding: 1em;
+    }
