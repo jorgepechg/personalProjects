@@ -5,26 +5,42 @@
     <meta charset="UTF-8">
     <title>Atractivos.</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
     <div id="contenedor">
         <div id="cabecera">
-            <h1>Atractivos.</h1>
+            <h1><i>Atractivos.</i></h1>
         </div>
-        <div id="cuerpo">
+        <div class="row">
+        <div id="menu" class="col-3 menu">
+            <nav>
+                <ul>
+                    <li><a class="menulinks" href="index.html">Inicio.</a></li>
+                    <li><a class="menulinks" href="historia.html">Historia.</a></li>
+                    <li><a class="menulinks" href="testimonios.html">Testimonios.</a></li>
+                    <li><a class="menulinks" href="tradiciones.html">Tradiciones.</a></li>
+                    <li><a class="menulinks" href="reservacion.html">Reservación.</a></li>
+                </ul>
+
+            </nav>
+        </div>
+        <div id="cuerpo" class="col-9">
             <div id="seccion1">
                 <section>
                     <div class="tituloseccion">
                         <h3>Principales playas de la Isla de Cozumel:</h3>
                     </div>
-                    <figure>
-                        <table id="tabla_playas">
+                    <div>
+                        <table id="tabla_playas">  
+                            <thead>
                             <tr>
                                 <th abbr="Imagen de la playa" scope="col" class="titulostabla">Imagen</th>
                                 <th abbr="Nombre y ubicación" scope="col" class="titulostabla">Ubicación</th>
                             </tr>
-
+                            </thead>
+                            <tbody>
                             <tr>
                                 <td>
                                     <img src="multimedia/playasanfrancisco.jpg" alt="Imagen Playa San Francisco" width="250" height="250">
@@ -82,28 +98,18 @@
                                     <p class="linktabla"><a href="https://goo.gl/maps/pGxvS9x4PcmQ9Xqy8" title="Ubicación" target="_blank">Ubicación</a></p>
                                 </td>
                             </tr>
+                          </tbody>
                         </table>
-                    </figure>
+                    </div>
                 </section>
             </div>
         </div>
-
+        </div>
         <br>
 
         <div id="pie de pagina">
             <footer>
-                <div id="menu">
-                    <nav>
-                        <ul>
-                            <li><a class="menulinks" href="index.html">Inicio.</a></li>
-                            <li><a class="menulinks" href="historia.html">Historia.</a></li>
-                            <li><a class="menulinks" href="testimonios.html">Testimonios.</a></li>
-                            <li><a class="menulinks" href="tradiciones.html">Tradiciones.</a></li>
-                            <li><a class="menulinks" href="reservacion.html">Reservación.</a></li>
-                        </ul>
 
-                    </nav>
-                </div>
                 <div id="creditos">
                     <p>
                         <small>
