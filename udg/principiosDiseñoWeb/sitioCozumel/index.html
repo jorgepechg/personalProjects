@@ -3,8 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Isla Cozumel.</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Atractivos.</title>
+    <link rel="stylesheet" type="text/css" href="style2.css"> 
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width: 650px)" href="style.css">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
@@ -13,53 +15,13 @@
         <div id="cabecera">
           <h1><i>Isla Cozumel.</i></h1>
         </div>
-        <div class="tituloseccion">
-            <h2>El Cielo en la Tierra.</h2>
-        </div>
-        <div class="video">
-           <iframe id="videocozumel" src="https://www.youtube.com/embed/difzQrqfDXg?si=1wMjM_Z8zHNOu9xw"
-            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-                 encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-           </iframe>
-        </div>
-    
-         <h3>El inicio del Caribe Mexicano</h3>
-    
-        <p>
-            La isla de Cozumel no es un destino cualquiera. Fue en este pedazo de cielo donde
-            se dieron los inicios de lo que hoy conocemos como el Caribe Mexicano. Fue en esta tierra
-            donde los pioneros del desarollo turístico en la decada de los 60´s fundaron las bases de
-            una de las regiones turísticas más exitosas del mundo. Antes de que existieran Cancún,
-            Playa del Carmen o Tulum, Cozumel ya era visitada por miles de turistas que a lo largo
-            de los años pasaron la voz sobre las maravillas aún virgenes de las costas del Caribe Mexicano.
-        </p>
 
-        <h3>Cozumel Maravilla Natural.</h3>
-        <p>
-            Hoy, Cozumel es un destino consolidado, líder la de la industria de buceo y de cruceros.
-            Año con año millones de visitantes se enamoran de su mar repleto de azules, de su mundo submarino,
-            de sus playas y de su selva. Cozumel es una joya natural que ha sido reconocida por la UNESCO
-            como reserva de la biosfera, además de tener el prestigio internacional como sitio de
-            protección de humedales RAMSAR. La isla cuenta con 31 especies de animales endémicos, esto hace
-            de su protección algo de suma importancia, ya que especies como el mapache enano, el colibrí
-            esmeralda, la estrella de mar albina, la largartija espinosa y el pez sapo espléndido no se
-            encuentran en ninguna otra parte del mundo.
-        </p>
-
-    <figure style="margin:auto">
-        <img src="multimedia/cozumelnatural.jpg" alt="Panoramica de zonas de humedales de la isla de Cozumel">
-        <figcaption>Cozumel una joya natural del Caribe Mexicano.</figcaption>
-    </figure>
-
-
-
-    <div id="pie de pagina">
-        <footer>
-            <div id="menu">
+        <div class="row">
+            <div id="menu" class="col-3 menu">
                 <nav>
                     <ul>
-                        <li><a class="menulinks" href="atractivos.html">Atractivos.</a></li>
                         <li><a class="menulinks" href="historia.html">Historia.</a></li>
+                        <li><a class="menulinks" href="atractivos.html">Atractivos.</a></li>
                         <li><a class="menulinks" href="testimonios.html">Testimonios.</a></li>
                         <li><a class="menulinks" href="tradiciones.html">Tradiciones.</a></li>
                         <li><a class="menulinks" href="reservacion.html">Reservación.</a></li>
@@ -67,24 +29,67 @@
     
                 </nav>
             </div>
+            <div id="cuerpo" class="col-9">
+                <div class="tituloseccion">
+                    <h2>El Cielo en la Tierra.</h2>
+                </div>
+                <div class="video">
+                <iframe id="videocozumel" src="https://www.youtube.com/embed/difzQrqfDXg?si=1wMjM_Z8zHNOu9xw"
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                        encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+                </div>
+            
+                <h3>El inicio del Caribe Mexicano</h3>
+            
+                <p>
+                    La isla de Cozumel no es un destino cualquiera. Fue en este pedazo de cielo donde
+                    se dieron los inicios de lo que hoy conocemos como el Caribe Mexicano. Fue en esta tierra
+                    donde los pioneros del desarollo turístico en la decada de los 60´s fundaron las bases de
+                    una de las regiones turísticas más exitosas del mundo. Antes de que existieran Cancún,
+                    Playa del Carmen o Tulum, Cozumel ya era visitada por miles de turistas que a lo largo
+                    de los años pasaron la voz sobre las maravillas aún virgenes de las costas del Caribe Mexicano.
+                </p>
+
+                <h3>Cozumel Maravilla Natural.</h3>
+                <p>
+                    Hoy, Cozumel es un destino consolidado, líder la de la industria de buceo y de cruceros.
+                    Año con año millones de visitantes se enamoran de su mar repleto de azules, de su mundo submarino,
+                    de sus playas y de su selva. Cozumel es una joya natural que ha sido reconocida por la UNESCO
+                    como reserva de la biosfera, además de tener el prestigio internacional como sitio de
+                    protección de humedales RAMSAR. La isla cuenta con 31 especies de animales endémicos, esto hace
+                    de su protección algo de suma importancia, ya que especies como el mapache enano, el colibrí
+                    esmeralda, la estrella de mar albina, la largartija espinosa y el pez sapo espléndido no se
+                    encuentran en ninguna otra parte del mundo.
+                </p>
+
+            <figure>
+                <img src="multimedia/cozumelnatural.jpg" alt="Panoramica de zonas de humedales de la isla de Cozumel">
+                <figcaption>Cozumel una joya natural del Caribe Mexicano.</figcaption>
+            </figure>
+        </div>
+        </div>
+
+    <div id="pie de pagina">
+        <footer>
+
             <div id="creditos">
                 <p>
                     <small>
-                    <b>
-                        Referencias:
-                    </b>
-                    <br>
-                    <i>
-                        Consejo de Promoción Turística de Cozumel. Cozumel Travel Recuperado de https://www.caribemexicano.travel/isla-cozumel/
-                    </i>
+                        <b>
+                            Referencias:
+                        </b><br>
+                        <i>
+                            Consejo de Promoción Turística de Cozumel. Cozumel Travel Recuperado de https://www.caribemexicano.travel/isla-cozumel/
+                        </i>
                     </small>
                 </p>
+
                 <h5>Creado por Jorge Pech - jorgepechgrajales@gmail.com</h5>
             </div>
 
         </footer>
     </div>
-    </div>
+</div>
 </body>
-
 </html>
