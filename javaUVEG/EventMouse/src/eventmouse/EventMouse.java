@@ -1,4 +1,5 @@
 
+package eventmouse;
 
 import java.awt.event.MouseEvent;
 import javax.swing.JFrame;
